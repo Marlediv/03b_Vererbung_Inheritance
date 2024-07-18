@@ -1,17 +1,17 @@
 package com.cc.java;
 
-public class Supercat {
+public class SuperCat {
 
     private String name;
     private String furColor;
-    private int age;
+    protected int age;
 
-    public Supercat(String name, String furColor, int age) {
+public SuperCat(String name, String furColor, int age) {
         this.name = name;
         this.furColor = furColor;
         this.age = age;
     }
-
+ 
     public String getStringAttributes(String op) {
         switch (op) {
           case "#name":
